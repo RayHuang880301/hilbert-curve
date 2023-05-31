@@ -2,7 +2,7 @@ import { expect } from "chai";
 import { ethers } from "hardhat";
 import { MockContract, MockContract__factory } from "../typechain-types";
 import { BigNumber, utils } from "ethers";
-import { hIndex2xy, xy2hIndex } from "./hilbert-curve";
+import { hIndex2xy, xy2hIndex } from "./hilbertCurve";
 
 describe("Hilbert curve", function () {
   let HilbertCurve: MockContract__factory;
